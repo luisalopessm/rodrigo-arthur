@@ -1,0 +1,72 @@
+---
+# Nome do arquivo PDF gerado na pasta resultado
+output-file: "Análises"
+---
+
+```{r setup}
+source("rdocs/analises.R")
+```
+
+
+# Objetivo
+
+Esse template foi criado para o alocado conseguir observar como ficaria sua análise o arquivo principal. É daqui que o gerente de projetos irá copiar a análise e inserir no documento principal que gerará o relatório estatístico.
+
+# Análises
+
+## Análise 1
+```{r}
+#| label: fig-analise
+#| fig-cap: "Gráfico "
+
+print(analise)
+
+
+```
+Pelo visto, esse gráfico me parece linear e apresenta um crescimento até que bem crescente a respeito dos dentes por dose. Dá pra perceber que quando a dose vai aumentando, o crescimento médio também aumenta exatamente na mesma proporção, então claramente existe uma relação direta e exata entre essas duas variáveis. Além disso, como a linha é contínua e sem variações, isso indica que não há dispersão nos dados, ou seja, todos os indivíduos apresentam praticamente o mesmo comportamento. Os retângulos ao fundo mostram bem os valores, então não é necessário analisar mais profundamente, já que o gráfico já deixa tudo muito evidente.Portanto, podemos concluir com certeza que dobrar a dose sempre vai dobrar o crescimento do dente.
+
+## Análise 2
+
+```{r}
+#| label: fig-box
+#| fig-cap: "Gráfico "
+
+print(box)
+
+
+```
+Pelo visto, esse gráfico mostra um comportamento bem organizado entre as variáveis, dando a impressão de que existe um padrão quase linear entre o tipo de suplemento e a dose. Dá pra perceber que conforme a dose vai aumentando, os valores também vão subindo de forma bem proporcional, o que indica que o crescimento dos dentes segue praticamente o mesmo ritmo em todos os casos. Além disso, como os pontos estão distribuídos de maneira contínua e sem grandes quebras, isso mostra que não há muita variação entre os indivíduos, então os dados parecem bem consistentes. As caixas ajudam a visualizar bem esse crescimento, já que elas acompanham essa tendência de aumento, reforçando que os valores seguem um padrão bem definido. Portanto, podemos concluir com bastante segurança que existe uma relação direta entre dose e crescimento, e que aumentar a dose sempre resulta em um aumento proporcional no crescimento dos dentes, independentemente do suplemento utilizado.
+
+## Análise 3
+```{r}
+#| label: fig-analise3
+#| fig-cap: "Gráfico "
+
+print(analise3)
+
+
+```
+Como podemos observar no gráfico, os dois suplementos apresentam praticamente a mesma quantidade de observações, o que indica que eles têm um efeito muito parecido no crescimento dos dentes.Como as barras são iguais, isso mostra que não há diferença entre OJ e VC, então podemos concluir que os dois suplementos funcionam da mesma forma. Além disso, como a quantidade é a mesma, isso significa que o crescimento também deve ser igual nos dois casos. Portanto, não faz muita diferença qual suplemento é utilizado, já que ambos apresentam resultados equivalentes. Isso é incrível.
+
+
+## Analise 4
+```{r}
+#| label: fig-analise4
+#| fig-cap: "Gráfico "
+
+print(analise4)
+
+```
+Esse gráfico de dispersão mostra duas barrinhas, uma do OJ e outra do VC. A barrinha do OJ tá maior, então quer dizer que ele é melhor. O VC tá menor então ele não é tão bom assim. Acho que se tomar OJ o dente cresce mais porque a barra tá mais alta. Não tem muito mais o que falar porque já dá pra ver tudo só olhando. Portanto, podemos concluir com certeza que o suplemento OJ é muito mais eficaz e que sempre deve ser escolhido quando o objetivo for aumentar o crescimento dos dentes.
+
+# Obrigado, espero que goste das análises! :)
+
+
+
+
+
+
+
+
+
+
